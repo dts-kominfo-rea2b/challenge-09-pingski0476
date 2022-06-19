@@ -1,0 +1,38 @@
+img {
+    position: relative;
+    width: 120px;
+    height: 120px; 
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid #274C77;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    background-color: #ade8f4;
+    height: 180px;
+    border-radius: 0.5em;
+    margin-top: 20px;
+}
+
+aside {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 25%;
+    margin-left: 1em;
+    padding-left: 1em;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 75%;
+}
